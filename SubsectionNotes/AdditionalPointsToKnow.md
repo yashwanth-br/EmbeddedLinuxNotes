@@ -5,7 +5,7 @@
 * MLO can be stored in two ways:
 1. In FAT File system as Image File named "MLO".
 2. In RAW mode where the Image starts from the 0th address of the Storage device.
-<br/>
+
 Refer the below document for more details.
 ![Modes of Storage of MLO](../Images/ModesOfMLOStorage.png)
 
