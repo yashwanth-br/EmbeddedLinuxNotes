@@ -9,7 +9,6 @@
 **Steps:**
 
 1) Take an uSD card (4GB >= ) and partition it to two as shown below.
-<br/>
 (For more information about partitioning uSD card read: [How to Partition the uSD card for Booting](SubsectionNotes/How_to_Partition_uSD_card.md))
 
 ![uSD card Partitions](../Images/uSD_card_partitions.png)
