@@ -19,6 +19,6 @@
 ***
 
 [Back to Table of Contents](../Notes.md)
-<br/>
+
 Next: [Beaglebone Linux booting Process](Beaglebone_Linux_booting_Process.md)
 
