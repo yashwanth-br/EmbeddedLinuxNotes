@@ -14,14 +14,16 @@ Refer the below document for more details.
 
 | Partition | Files | Format |
 |:---------:|:-----:|:------:|
-|     1     | MLO + U-Boot + uEnv.txt + uImage | FAT |
-|     2     | RFS   | EXT3/EXT4 |
+|     1     | MLO + U-Boot + uEnv.txt | FAT |
+|     2     | uImage + RFS + Device Tree Binary  | EXT3/EXT4 |
 
 -- OR --
 
 2. 
 ![Boot Partition Method 2](../Images/BootPartitionMethod2.png)
 
+3. Last Message printed by U-boot before it hands off the control to Linux bootstrap loader is "Starting kernel".
+![Last Message from U-boot](../Images/LastMsgFromUboot.png)
 
 ***
 

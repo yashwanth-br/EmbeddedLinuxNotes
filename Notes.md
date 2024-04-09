@@ -10,12 +10,13 @@
 ***
 
 ## Table of Contents
-### Reading Pages
+
 1. [AM334x Functional block Overview (Section 3 of Course)](SubsectionNotes/AM335x_Functional_block_Overview.md)
 2. [Beaglebone Linux booting Process (Section 4 of Course)](SubsectionNotes/Beaglebone_Linux_booting_Process.md)
 3. [Booting BBB from the SD card](SubsectionNotes/Booting_BBB_from_uSD_card.md)
+3. [Booting BBB from U-Boot Prompt](SubsectionNotes/)
 
-### Hands-on Pages
+### Additional Reference
 
 * [How to Partition the uSD card for Booting](SubsectionNotes/How_to_Partition_uSD_card.md)
 * [How to connect Beaglebone Black to computer through Serial Communication](SubsectionNotes/How_to_connect_BBB_Serial.md)

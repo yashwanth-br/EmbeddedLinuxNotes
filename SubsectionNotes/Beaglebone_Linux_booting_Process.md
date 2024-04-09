@@ -85,11 +85,13 @@ The Linux kernel serves as the heart of the operating system. Unlike its desktop
 
 ### RFS (Root File System)
 The root filesystem in embedded Linux is the foundation for the entire system operation. It resides on a non-volatile storage device like flash memory and serves as the central point for all essential files and directories.  Think of it as the root of a tree, where critical elements like the kernel itself, core system libraries, device drivers, and user applications all branch out. The structure of the root filesystem follows the Filesystem Hierarchy Standard (FHS), ensuring a consistent organization across different Linux systems. This standardized layout allows the system to locate necessary files efficiently and facilitates easier maintenance and updates.
+
+![Boot Flow in BBB](../Images/BootFlowBBB.png)
 ***
 
 [Back to Table of Contents](../Notes.md)
 
-Next: []()
+Next: [Booting Beaglebone Black Board from the SD card](Booting_BBB_from_uSD_card.md)
 <br>
 Previous: [AM335x Functional block Overview](AM335x_Functional_block_Overview.md)
 
