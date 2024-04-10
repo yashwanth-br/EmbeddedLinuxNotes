@@ -6,20 +6,25 @@
 * BeagleBone Black [Wikipedia Page](https://elinux.org/Beagleboard:BeagleBoneBlack#Revision_C_.28Production_Version.29) for Reference
 * BeagleBone Black [System Reference Manual Rev C](https://github.com/beagleboard/beaglebone-black) for Reference
 * Board Introduction to get started is on the Course [article page](https://www.udemy.com/course/embedded-linux-step-by-step-using-beaglebone/learn/lecture/7243972#content)
+* Similar Notes available at: [BBB-linux-app](https://github.com/nghiaphamsg/BBB-linux-app)
 
 ***
 
 ## Table of Contents
 
+* Full Overview available at: [Complete Linux booting process](SubsectionNotes/Complete_Linux_booting_process.md)
 1. [AM334x Functional block Overview (Section 3 of Course)](SubsectionNotes/AM335x_Functional_block_Overview.md)
 2. [Beaglebone Linux booting Process (Section 4 of Course)](SubsectionNotes/Beaglebone_Linux_booting_Process.md)
 3. [Booting BBB from the SD card](SubsectionNotes/Booting_BBB_from_uSD_card.md)
-3. [Booting BBB from U-Boot Prompt](SubsectionNotes/)
+3. [Booting BBB from U-Boot Prompt](SubsectionNotes/Booting_BBB_from_Uboot_prompt.md)
 
 ### Additional Reference
 
 * [How to Partition the uSD card for Booting](SubsectionNotes/How_to_Partition_uSD_card.md)
 * [How to connect Beaglebone Black to computer through Serial Communication](SubsectionNotes/How_to_connect_BBB_Serial.md)
+* [Why Flattened Device Tree is required?](SubsectionNotes/Flattened_Device_Tree.md)
+* [How to update eMMC Storage with latest OS](SubsectionNotes/How_to_update_eMMC_Storage_with_latest_OS.md)
+
 
 ### Additional Points
 

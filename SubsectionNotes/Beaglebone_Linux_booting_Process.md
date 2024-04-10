@@ -83,6 +83,8 @@ U-Boot is a popular second-stage bootloader commonly used in embedded Linux syst
 ### Linux Kernel
 The Linux kernel serves as the heart of the operating system. Unlike its desktop counterpart, the embedded kernel is a streamlined version tailored for the specific hardware and functionalities of the device. This focus on efficiency allows it to operate with limited resources like processing power and memory. The kernel manages core tasks like memory management, device drivers for interacting with hardware components, process scheduling, and network communication.  It acts as the foundation upon which higher-level applications and user interfaces can be built, enabling the embedded device to perform its designated functions.
 
+Read about [Linux Boot Strap Loader Flow](Linux_BootStrap_Loader.md)
+
 ### RFS (Root File System)
 The root filesystem in embedded Linux is the foundation for the entire system operation. It resides on a non-volatile storage device like flash memory and serves as the central point for all essential files and directories.  Think of it as the root of a tree, where critical elements like the kernel itself, core system libraries, device drivers, and user applications all branch out. The structure of the root filesystem follows the Filesystem Hierarchy Standard (FHS), ensuring a consistent organization across different Linux systems. This standardized layout allows the system to locate necessary files efficiently and facilitates easier maintenance and updates.
 

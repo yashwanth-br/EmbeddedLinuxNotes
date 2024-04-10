@@ -14,6 +14,7 @@
 2. SOC has internal ROM of 176KB.
 
 #### MMC Interface present on the Board
+![MMC interfaces on BBB](../Images/MMC_Interfaces_BBB.png)
 * MMC0 - connected to SD card slot on the board
 * MMC1 - connected to eMMC storage on the board
 ***
