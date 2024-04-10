@@ -24,6 +24,7 @@
 * [How to connect Beaglebone Black to computer through Serial Communication](SubsectionNotes/How_to_connect_BBB_Serial.md)
 * [Why Flattened Device Tree is required?](SubsectionNotes/Flattened_Device_Tree.md)
 * [How to update eMMC Storage with latest OS](SubsectionNotes/How_to_update_eMMC_Storage_with_latest_OS.md)
+* [U-Boot Most Useful commands and Syntax](SubsectionNotes/Uboot_commands.md)
 
 
 ### Additional Points
