@@ -1,7 +1,7 @@
 [Back to Table of Contents](../Notes.md)
 ***
 
-## U-Boot Most Useful commands and Syntax
+# U-Boot Most Useful commands and Syntax
 
 1. __help__ - For getting all commands list.
 2. __<command\> help__ - help for a particular command which we are interested in. (Replace <command\> with the desired command).

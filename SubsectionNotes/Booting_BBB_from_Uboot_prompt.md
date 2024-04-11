@@ -1,7 +1,7 @@
 [Back to Table of Contents](../Notes.md)
 ***
 
-## Booting Beaglebone Black Board from U-boot Prompt without uEnv.txt
+# Booting Beaglebone Black Board from U-boot Prompt without uEnv.txt
 
 **Important Note:** 
 In the course they will Boot from eMMC storage as the older Image had two partitions. But that is not the case in the updated image. So, for time being it is not possible for us to boot from eMMC storage. But we'll Boot from the uSD card itself.

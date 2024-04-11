@@ -2,7 +2,7 @@
 ***
 
 ### Section 4
-## Beaglebone Linux booting Process
+# Beaglebone Linux booting Process
 
 ![Linux Boot Process](../Images/BootProcess.png)
 

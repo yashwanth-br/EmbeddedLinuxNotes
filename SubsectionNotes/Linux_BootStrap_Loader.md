@@ -1,6 +1,6 @@
 [Back to Table of Contents](../Notes.md)
 ***
-## Linux Boot Strap Loader Flow
+# Linux Boot Strap Loader Flow
 
 ![Linux Boot Strap Loader FLow](../Images/LinuxBootstrapLoaderControlFlow.png)
 

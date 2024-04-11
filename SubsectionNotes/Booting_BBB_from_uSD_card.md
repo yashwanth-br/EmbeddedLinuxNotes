@@ -1,6 +1,6 @@
 [Back to Table of Contents](../Notes.md)
 ***
-## Booting Beaglebone Black Board from the SD card
+# Booting Beaglebone Black Board from the SD card
 
 Storage can be partitioned into either of the below ways for booting:
 

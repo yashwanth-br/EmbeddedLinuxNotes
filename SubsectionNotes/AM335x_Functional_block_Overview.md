@@ -2,7 +2,7 @@
 ***
 
 ### Section 3 of Course
-## AM335x Functional block Overview
+# AM335x Functional block Overview
 
 ![AM335x SOC Block Diagram](../Images/AM335x_SOC_Block_Diagram.png)
 

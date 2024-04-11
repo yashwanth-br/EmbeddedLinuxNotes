@@ -1,6 +1,6 @@
 [Back to Table of Contents](../Notes.md)
 ***
-## Additional Points to Know
+# Additional Points to Know
 
 * MLO can be stored in two ways:
 1. In FAT File system as Image File named "MLO".

@@ -15,14 +15,19 @@
 * Full Overview available at: [Complete Linux booting process](SubsectionNotes/Complete_Linux_booting_process.md)
 1. [AM334x Functional block Overview (Section 3 of Course)](SubsectionNotes/AM335x_Functional_block_Overview.md)
 2. [Beaglebone Linux booting Process (Section 4 of Course)](SubsectionNotes/Beaglebone_Linux_booting_Process.md)
-3. [Booting BBB from the SD card](SubsectionNotes/Booting_BBB_from_uSD_card.md)
-3. [Booting BBB from U-Boot Prompt](SubsectionNotes/Booting_BBB_from_Uboot_prompt.md)
+3. [Why Flattened Device Tree is required?](SubsectionNotes/Flattened_Device_Tree.md)
+4. [Booting BBB from the SD card](SubsectionNotes/Booting_BBB_from_uSD_card.md)
+5. [Booting BBB from U-Boot Prompt](SubsectionNotes/Booting_BBB_from_Uboot_prompt.md)
+6. [Booting BBB from UART](SubsectionNotes/Booting_BBB_from_UART.md)
+7. [Booting BBB from TFTP Protocol](SubsectionNotes/)
+8. [Understanding U-Boot Source Tree](SubsectionNotes/UbootSourceTree.md)
+9. [How to Compile U-Boot from its source code](SubsectionNotes/U-Boot_Compilation.md)
+8. [Understanding Linux Source Tree](SubsectionNotes/LinuxSourceTree.md)
 
 ### Additional Reference
 
 * [How to Partition the uSD card for Booting](SubsectionNotes/How_to_Partition_uSD_card.md)
 * [How to connect Beaglebone Black to computer through Serial Communication](SubsectionNotes/How_to_connect_BBB_Serial.md)
-* [Why Flattened Device Tree is required?](SubsectionNotes/Flattened_Device_Tree.md)
 * [How to update eMMC Storage with latest OS](SubsectionNotes/How_to_update_eMMC_Storage_with_latest_OS.md)
 * [U-Boot Most Useful commands and Syntax](SubsectionNotes/Uboot_commands.md)
 

@@ -1,7 +1,7 @@
 [Back to Table of Contents](../Notes.md)
 ***
 
-## Why Flattened Device Tree is required?
+# Why Flattened Device Tree is required?
 
 * The on-board peripheral devices which connect to SPI, I2C, SDIO, ETHERNET, etc have no capability to announce their existence on the board by themselves to the operating system. These peripherals are also called as "Platform devices".
 * USB device has the inbuilt intelligence to send its details to the operating system. (that means USB supports dynamic discoverability)

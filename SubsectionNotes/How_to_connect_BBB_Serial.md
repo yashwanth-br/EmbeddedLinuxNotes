@@ -1,7 +1,7 @@
 [Back to Table of Contents](../Notes.md)
 ***
 
-## How to connect Beaglebone Black to computer through Serial Communication
+# How to connect Beaglebone Black to computer through Serial Communication
 
 ![Serial Connection Diagram of BBB through UART](../Images/SerialConnectionDiagram.png)
 

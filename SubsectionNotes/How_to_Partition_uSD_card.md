@@ -1,7 +1,7 @@
 [Back to Table of Contents](../Notes.md)
 ***
 
-## How to Partition the uSD card for Booting
+# How to Partition the uSD card for Booting
 
 **Important Note:** For the following steps, Don't operate as the Super User (i.e. root) in the command line. If we require any higher privileges, we may use it with "sudo".
 
