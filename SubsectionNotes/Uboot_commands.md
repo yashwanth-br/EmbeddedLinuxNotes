@@ -4,7 +4,7 @@
 # U-Boot Most Useful commands and Syntax
 
 1. __help__ - For getting all commands list.
-2. __<command\> help__ - help for a particular command which we are interested in. (Replace <command\> with the desired command).
+2. __help <command\>__ - help for a particular command which we are interested in. (Replace <command\> with the desired command).
 3. __load__ - To load from certain storage device on the board to the External RAM of the board.
 
     * Syntax - 
@@ -65,6 +65,18 @@
 12. __mmc rescan__ - to rescan for any mmc device added after the u-boot booting.
 
 13. __mmc list__ - to list all the available mmc interface on the board.
+
+14. __loadx__ - to get the bootloader image from the UART interface through XMODEM protocol and load it to the RAM with the given address, with the specific baudrate.(Here <baudrate> is optional, default is 115200)
+
+    * Syntax - 
+
+    `loadx <RAM load address> <baudrate>` 
+
+    * Example - 
+    `loadx 0x82000000` (Get the image from XMODEM protocol and load it to RAM at 0x82000000)
+
+15. __loady__ - Similar to `loadx` but YMODEM protocol is used.
+16. __loadz__ - Similar to `loadx` but ZMODEM protocol is used.
 
 ### Points to Note:
 
