@@ -78,6 +78,15 @@
 15. __loady__ - Similar to `loadx` but YMODEM protocol is used.
 16. __loadz__ - Similar to `loadx` but ZMODEM protocol is used.
 
+17. __env import__ - to import the uEnv.txt file from the memory and assign to the environmental variables.
+
+    * Syntax - 
+
+    `env import -t <RAM address> <size in bytes>` 
+
+    * Example - 
+    `env import -t 0x80200000 48` (load the uEnv.txt file from RAM address 0x80200000 which is 48 bytes and assign the values to the Environmental variables)
+
 ### Points to Note:
 
 1. You can store multiple commands in the environmental variables and later execute all of them on one go by running this one environmental variable.

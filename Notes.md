@@ -18,11 +18,12 @@
 3. [Why Flattened Device Tree is required?](SubsectionNotes/Flattened_Device_Tree.md)
 4. [Booting BBB from the SD card](SubsectionNotes/Booting_BBB_from_uSD_card.md)
 5. [Booting BBB from U-Boot Prompt](SubsectionNotes/Booting_BBB_from_Uboot_prompt.md)
-6. [Booting BBB from UART](SubsectionNotes/Booting_BBB_from_UART.md)
-7. [Booting BBB from TFTP Protocol](SubsectionNotes/Booting_BBB_from_TFTP.md)
-8. [Understanding U-Boot Source Tree](SubsectionNotes/UbootSourceTree.md)
-9. [How to Compile U-Boot from its source code](SubsectionNotes/U-Boot_Compilation.md)
-8. [Understanding Linux Source Tree](SubsectionNotes/LinuxSourceTree.md)
+6. [What is uEnv.txt?](SubsectionNotes/What_is_uEnv.txt.md)
+7. [Booting BBB from UART](SubsectionNotes/Booting_BBB_from_UART.md)
+8. [Booting BBB from TFTP Protocol](SubsectionNotes/Booting_BBB_from_TFTP.md)
+9. [Understanding U-Boot Source Tree](SubsectionNotes/UbootSourceTree.md)
+10. [How to Compile U-Boot from its source code](SubsectionNotes/U-Boot_Compilation.md)
+11. [Understanding Linux Source Tree](SubsectionNotes/LinuxSourceTree.md)
 
 ### Additional Reference
 
