@@ -87,6 +87,9 @@
     * Example - 
     `env import -t 0x80200000 48` (load the uEnv.txt file from RAM address 0x80200000 which is 48 bytes and assign the values to the Environmental variables)
 
+18. __ping <ping address\>__ - to ping to the given ping address.
+19. __tftpboot <RAM load address\> <file to be fetched\>__ - This command is used to fetch the files (i.e. boot images) from the TFTP server for booting. It fetches the file and keeps it in the RAM at given location.
+
 ### Points to Note:
 
 1. You can store multiple commands in the environmental variables and later execute all of them on one go by running this one environmental variable.

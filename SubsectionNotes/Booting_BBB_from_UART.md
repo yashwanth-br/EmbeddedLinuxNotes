@@ -14,7 +14,7 @@ In this section, we need to make sure Beaglebone black board boots from UART mod
 * Download the boot images [here](https://github.com/niekiran/EmbeddedLinuxBBB/tree/master/pre-built-images/serial-boot), if you don't have it already.
 
 For more Information about the U-boot commands and Syntax Refer:
-[U-Boot Most Useful commands and Syntax](SubsectionNotes/Uboot_commands.md).
+[U-Boot Most Useful commands and Syntax](Uboot_commands.md).
 
 ### Steps:
 
