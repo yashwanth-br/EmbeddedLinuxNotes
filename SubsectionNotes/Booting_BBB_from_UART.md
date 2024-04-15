@@ -49,7 +49,7 @@ loadx 0x82000000
 loadx 0x88000000
 ```
 
-7. Next thing required is the File system but as we don't any storage element while booting (not considering eMMC because we are booting from UART remotely), we need to store the initial File system in the RAM then we can use the Real file system on the storage to continue. And this initial file system loaded in the RAM is called as '_initramfs_'. (Read more about [initramfs]()) <!-- TODO --> Get the initramfs from XMODEM protocol and load to the RAM at 0x88080000.
+7. Next thing required is the File system but as we don't any storage element while booting (not considering eMMC because we are booting from UART remotely), we need to store the initial File system in the RAM then we can use the Real file system on the storage to continue. And this initial file system loaded in the RAM is called as '_initramfs_'. (Read more about [initramfs](https://www.learningaboutelectronics.com/Articles/How-to-generate-initramfs-file-root-file-system-linux.php)) Get the initramfs from XMODEM protocol and load to the RAM at 0x88080000.
 
 ```
 loadx 0x88080000

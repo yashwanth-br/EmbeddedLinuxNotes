@@ -24,7 +24,7 @@ Eg.
 ```
 > setenv testcmd1 echo This is done
 > setenv testcmd2 echo This is done2
-> setenv mastercmd '${testcmd1}; ${testcmd2}' 
+> setenv mastercmd 'run testcmd1; run testcmd2' 
 > run mastercmd 
 
 ----------------OUTPUT--------------------

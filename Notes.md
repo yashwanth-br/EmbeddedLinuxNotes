@@ -7,6 +7,7 @@
 * BeagleBone Black [System Reference Manual Rev C](https://github.com/beagleboard/beaglebone-black) for Reference
 * Board Introduction to get started is on the Course [article page](https://www.udemy.com/course/embedded-linux-step-by-step-using-beaglebone/learn/lecture/7243972#content)
 * Similar Notes available at: [BBB-linux-app](https://github.com/nghiaphamsg/BBB-linux-app)
+* Website reference: [Learning about Electronics: Beaglebone](https://www.learningaboutelectronics.com/Beaglebone/)
 
 ***
 
@@ -24,6 +25,9 @@
 9. [Understanding U-Boot Source Tree](SubsectionNotes/UbootSourceTree.md)
 10. [How to Compile U-Boot from its source code](SubsectionNotes/U-Boot_Compilation.md)
 11. [Understanding Linux Source Tree](SubsectionNotes/LinuxSourceTree.md)
+12. [How to Configure and Generate Linux Image](SubsectionNotes/LinuxImageGeneration.md)
+13. [Busybox Introduction](SubsectionNotes/Busybox_Introduction.md)
+14. [How to use Busybox to create a Minimal RFS?](SubsectionNotes/How_to_use_Busybox.md)
 
 ### Additional Reference
 
@@ -31,6 +35,7 @@
 * [How to connect Beaglebone Black to computer through Serial Communication](SubsectionNotes/How_to_connect_BBB_Serial.md)
 * [How to update eMMC Storage with latest OS](SubsectionNotes/How_to_update_eMMC_Storage_with_latest_OS.md)
 * [U-Boot Most Useful commands and Syntax](SubsectionNotes/Uboot_commands.md)
+* [About Linux Bootstrap Loader](SubsectionNotes/Linux_BootStrap_Loader.md)
 
 
 ### Additional Points

@@ -38,7 +38,7 @@ It is a small program pre-installed in the device's read-only memory (ROM). It a
 * When RBL fetches the SPL/MLO, it stores it in the Internal RAM of the SOC.
 
 ![MLO Structure](../Images/MLO.png)
-* Image header contains the load address in the RAM and the size of the SPL?. <!-- TODO -->
+* Image header contains the load address in the RAM and the size of the SPL (Not the whole MLO, remember MLO = Header + SPL). 
 
 
 _And these are explained thoroughly in the Udemy course [article page.](https://www.udemy.com/course/embedded-linux-step-by-step-using-beaglebone/learn/lecture/7243996#overview)_
@@ -73,7 +73,7 @@ U-Boot is a popular second-stage bootloader commonly used in embedded Linux syst
 3) U-Boot loads the operating system kernel (the core of the OS) and any additional data (device tree, ramdisk) from various storage devices like USB, eMMC, SD card, Ethernet, Serial port, NAND Flash, etc. Later it passes the boot arguments to the kernel and passes the control finally.
 
 4) We can change default configurations/behaviour of U-boot by providing a file called uEnv.txt. This file contains some Environmental variables and its values given by the user, without this file the Environmental variables contains default values. However, this file is not compulsory, without it U-boot can boot the linux kernel without a hassle.
-(More about uEnv.txt at )<!-- TODO --> 
+(More about uEnv.txt at [What is uEnv.txt?](What_is_uEnv.txt.md))
 
 ![uImage Structure](../Images/uImageStructure.png)
 * U-Boot loads uImage to the DDR Memory.
