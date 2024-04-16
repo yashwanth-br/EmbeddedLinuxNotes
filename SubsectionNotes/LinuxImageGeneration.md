@@ -33,18 +33,18 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- menuconfig
 4. Finally, we are ready to compile the source code.
 
 ```
-make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- uImage dtbs LOADADDR=80008000
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- uImage dtbs LOADADDR=0x80008000
 ```
 ![Options for Kernel Compilation](../Images/OptionsKernelCompilation.png)
 
 (If you know how many cores your machine have, you may specify it in the command which makes it faster. However, this is not mandatory and not recommended if you are not sure about the number of cores)
 * For 4 core machine
 ```
-make arch=arm cross_compile=arm-linux-gnueabihf- uimage dtbs loadaddr=80008000 -j4
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- uImage dtbs LOADADDR=0x80008000 -j4
 ```
 * For 8 core machine
 ```
-make arch=arm cross_compile=arm-linux-gnueabihf- uimage dtbs loadaddr=80008000 -j8
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- uImage dtbs LOADADDR=0x80008000 -j8
 ```
 
 5. Remember that, we have not yet compiled the kernel modules which we chose to not to compile with the kernel itself. So, we need to do it now.
